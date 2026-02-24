@@ -3,212 +3,292 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>kb-solutions.info - Impressum & Datenschutz</title>
+    <title>kb-solutions.info - Datenschutz und Impressum</title>
     <style>
       :root {
-        --bg: #f5efe5;
-        --card: #fffaf2;
-        --text: #3f2f1f;
-        --muted: #6e5a45;
-        --line: #d8c7aa;
-        --accent: #87643f;
+        --bg: #f4efe6;
+        --box: #fffaf3;
+        --line: #d7c9af;
+        --text: #322516;
+        --muted: #6f5d47;
+        --link: #6f5031;
       }
       * { box-sizing: border-box; }
       body {
         margin: 0;
-        font-family: "Segoe UI", Arial, sans-serif;
         background: var(--bg);
         color: var(--text);
+        font-family: "Segoe UI", Arial, sans-serif;
         line-height: 1.55;
       }
       main {
         max-width: 960px;
         margin: 0 auto;
-        padding: 24px 16px 40px;
+        padding: 26px 16px 40px;
       }
-      h1 { margin: 0 0 8px; font-size: 1.6rem; }
-      h2 { margin: 0 0 10px; font-size: 1.2rem; }
-      h3 { margin: 14px 0 8px; font-size: 1rem; }
-      p { margin: 0 0 10px; }
-      ul { margin: 8px 0 10px 20px; padding: 0; }
-      .muted { color: var(--muted); }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 1.65rem;
+      }
+      h2 {
+        margin: 0 0 8px;
+        font-size: 1.28rem;
+      }
+      h3 {
+        margin: 12px 0 6px;
+        font-size: 1.02rem;
+      }
+      p {
+        margin: 0 0 7px;
+      }
+      ul {
+        margin: 0 0 8px 20px;
+        padding: 0;
+      }
+      .muted {
+        color: var(--muted);
+      }
       .nav {
+        margin: 0 0 18px;
         display: flex;
+        flex-wrap: wrap;
         gap: 10px;
-        margin: 14px 0 18px;
       }
       .nav a {
+        display: inline-block;
+        color: var(--link);
         text-decoration: none;
-        color: var(--accent);
-        background: #fff;
+        background: #ffffff;
         border: 1px solid var(--line);
         border-radius: 10px;
-        padding: 7px 10px;
+        padding: 8px 12px;
         font-weight: 600;
+        transition: background-color 0.15s ease, border-color 0.15s ease;
       }
-      .card {
-        background: var(--card);
+      .nav a:hover {
+        background: #f8f1e6;
+        border-color: #cbb796;
+      }
+      .legal-box {
+        background: var(--box);
         border: 1px solid var(--line);
         border-radius: 14px;
-        padding: 16px;
-        margin-bottom: 14px;
+        padding: 18px;
+        margin-bottom: 12px;
+      }
+      .section-divider {
+        margin-top: 9px;
+        padding-top: 4px;
+      }
+      #datenschutz .section-divider > p:not([class]) {
+        margin-left: 18px;
+      }
+      #datenschutz .section-divider > ul:not([class]) {
+        margin-left: 34px;
+      }
+      .stand {
+        margin-bottom: 8px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+      .indent-1 { margin-left: 12px; }
+      .indent-2 { margin-left: 24px; }
+      .indent-list { margin-left: 36px; }
+      .field-label {
+        margin: 0 0 4px;
+        font-weight: 700;
+      }
+      .field-body {
+        margin: 0 0 8px 14px;
       }
       footer {
-        margin-top: 16px;
-        font-size: 0.92rem;
+        margin-top: 6px;
         color: var(--muted);
+        font-size: 0.92rem;
       }
     </style>
   </head>
   <body>
     <main>
       <h1>kb-solutions.info</h1>
-      <p class="muted">Rechtliche Informationen</p>
+      <p class="muted">Rechtliche Informationen zur App &bdquo;Wunschbrunnen&ldquo;</p>
 
       <nav class="nav">
+        <a href="#datenschutz">Datenschutzerkl&auml;rung</a>
         <a href="#impressum">Impressum</a>
-        <a href="#datenschutz">Datenschutz</a>
       </nav>
 
-      <section id="impressum" class="card">
-        <h2>Impressum</h2>
-        <h3>Angaben gemaess § 5 Digitale-Dienste-Gesetz (DDG)</h3>
-        <p>
-          Anbieter:<br />
-          Kevin B.<br />
-          KBSolutions
-        </p>
-        <p>
-          Anschrift:<br />
-          Hauptstrasse 10<br />
-          71272 Renningen<br />
-          Deutschland
-        </p>
-        <p>
-          Kontakt:<br />
-          E-Mail: kb@kb-solutions.info
-        </p>
-        <p>
-          Verbraucherschlichtung:<br />
-          Wir sind nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren
-          vor einer Verbraucherschlichtungsstelle teilzunehmen.
-        </p>
-        <p>
-          Geltungsbereich:<br />
-          Dieses Impressum gilt fuer die Website kb-solutions.info, die App
-          „Wunschbrunnen“ sowie zugehoerige Support- und Informationsseiten.
-        </p>
-      </section>
-
-      <section id="datenschutz" class="card">
-        <h2>Datenschutzerklaerung - App „Wunschbrunnen“ (IAP + AdMob nicht-personalisiert)</h2>
-        <p class="muted">Stand: 23.02.2026</p>
-
-        <h3>1) Verantwortlicher</h3>
-        <p>
-          Verantwortlich im Sinne der DSGVO:<br />
-          Kevin B.<br />
-          Hauptstrasse 10<br />
-          71272 Renningen, Deutschland<br />
-          E-Mail: kb@kb-solutions.info
-        </p>
-
-        <h3>2) Grundsatz</h3>
-        <p>
-          Die App „Wunschbrunnen“ ist grundsaetzlich ohne Nutzerkonto nutzbar.
-          Personenbezogene Daten werden nur verarbeitet, soweit dies fuer den Betrieb
-          der App, die Abwicklung von In-App-Kaeufen und die Auslieferung
-          nicht-personalisierter Werbung ueber Google AdMob erforderlich ist.
-        </p>
-
-        <h3>3) Welche Daten werden verarbeitet?</h3>
-        <p><strong>a) Technische Daten (Betrieb der App)</strong></p>
-        <ul>
-          <li>Geraetetyp, Betriebssystem-Version, App-Version</li>
-          <li>Spracheinstellungen, Zeitstempel</li>
-          <li>IP-Adresse (insbesondere bei Kommunikation mit Drittanbietern)</li>
-        </ul>
-        <p>
-          Zweck: Bereitstellung, Stabilitaet und Sicherheit der App<br />
-          Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO und/oder Art. 6 Abs. 1 lit. b DSGVO
-        </p>
-
-        <p><strong>b) In-App-Kaeufe (digitale Muenzen)</strong></p>
-        <ul>
-          <li>Kauf-/Transaktionsstatus (z. B. „gekauft“, „erstattet“)</li>
-          <li>Beleg-/Bestaetigungsdaten zur Freischaltung gekaufter Inhalte</li>
-        </ul>
-        <p>
-          Zweck: Bereitstellung gekaufter Inhalte, Validierung, Betrugspraevention<br />
-          Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO
-        </p>
-
-        <p><strong>c) Werbung ueber Google AdMob (nicht-personalisiert)</strong></p>
-        <p>
-          Die App verwendet Google AdMob, um nicht-personalisierte Werbeanzeigen
-          auszuliefern.
-        </p>
-        <ul>
-          <li>IP-Adresse</li>
-          <li>Geraete-/App-Informationen</li>
-          <li>Interaktions-/Messdaten (z. B. Einblendung einer Anzeige)</li>
-          <li>Technische Kennungen/Signale (implementierungsabhaengig)</li>
-        </ul>
-        <p>
-          Zweck: Auslieferung und Abrechnung nicht-personalisierter Werbung,
-          Finanzierung der App, Betrugspraevention und Messung<br />
-          Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO
-        </p>
-
-        <h3>4) Empfaenger / Drittanbieter</h3>
-        <p>
-          Google AdMob / Google<br />
-          Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland
-        </p>
-        <p>
-          Apple (App Store) / Google (Google Play) fuer Bereitstellung und
-          In-App-Kauf-Abwicklung.
-        </p>
-
-        <h3>5) Drittlanduebermittlung (z. B. USA)</h3>
-        <p>
-          Bei Nutzung von Google-Diensten kann eine Verarbeitung ausserhalb der
-          EU/des EWR nicht ausgeschlossen werden. Uebermittlungen erfolgen nur
-          unter den Voraussetzungen der Art. 44 ff. DSGVO.
-        </p>
-
-        <h3>6) Speicherdauer</h3>
-        <ul>
-          <li>Kauf-/Statusdaten: solange zur Bereitstellung/Validierung erforderlich</li>
-          <li>Werbedaten: gemaess Speicherfristen und Konfiguration von Google/AdMob</li>
-          <li>Technische Daten: in der Regel kurzfristig bzw. gemaess System-/SDK-Konfiguration</li>
-        </ul>
-
-        <h3>7) Deine Rechte</h3>
-        <p>
-          Du hast nach DSGVO insbesondere folgende Rechte: Auskunft, Berichtigung,
-          Loeschung, Einschraenkung, Datenuebertragbarkeit und Widerspruch.
-          Zudem kannst du dich bei einer Datenschutz-Aufsichtsbehoerde beschweren
-          (Art. 77 DSGVO).
-        </p>
-
-        <h3>8) Aenderungen dieser Datenschutzerklaerung</h3>
-        <p>
-          Wir behalten uns vor, diese Datenschutzerklaerung anzupassen, um sie
-          an rechtliche Anforderungen oder Funktionsaenderungen der App anzupassen.
-        </p>
+      <section id="datenschutz" class="legal-box">
+        <h2>Datenschutzerkl&auml;rung - App &bdquo;Wunschbrunnen&ldquo; (IAP + AdMob nicht-personalisiert)</h2>
+        <p class="stand">Stand: 24.02.2026</p>
 
         <h3>Datenschutz (kurz)</h3>
         <p>
-          „Wunschbrunnen nutzt In-App-Kaeufe ueber den jeweiligen App-Store.
-          Ausserdem zeigt die App ueber Google AdMob nicht-personalisierte Werbung an.
-          Es wird kein Nutzerprofil fuer interessenbasierte Werbung erstellt.“
+          &bdquo;Wunschbrunnen nutzt In-App-K&auml;ufe &uuml;ber den jeweiligen App-Store.
+          Au&szlig;erdem zeigt die App &uuml;ber Google AdMob nicht-personalisierte Werbung an.
+          Es wird kein Nutzerprofil f&uuml;r interessenbasierte Werbung erstellt.&ldquo;
+        </p>
+
+        <div class="section-divider">
+          <h3>1) Verantwortlicher</h3>
+          <p>
+            Verantwortlich im Sinne der DSGVO:<br />
+            Kevin B.<br />
+            Hauptstra&szlig;e 10<br />
+            71272 Renningen, Deutschland<br />
+            E-Mail: kb@kb-solutions.info
+          </p>
+        </div>
+
+        <div class="section-divider">
+          <h3>2) Grundsatz</h3>
+          <p>
+            Die App &bdquo;Wunschbrunnen&ldquo; ist grunds&auml;tzlich ohne Nutzerkonto nutzbar.
+            Personenbezogene Daten werden nur verarbeitet, soweit dies f&uuml;r den Betrieb der App,
+            die Abwicklung von In-App-K&auml;ufen und die Auslieferung nicht-personalisierter Werbung
+            &uuml;ber Google AdMob erforderlich ist.
+          </p>
+        </div>
+
+        <div class="section-divider">
+          <h3>3) Welche Daten werden verarbeitet?</h3>
+
+          <p class="indent-1"><strong>a) Technische Daten (Betrieb der App)</strong></p>
+          <ul class="indent-list">
+            <li>Ger&auml;tetyp, Betriebssystem-Version, App-Version</li>
+            <li>Spracheinstellungen, Zeitstempel</li>
+            <li>IP-Adresse (insbesondere bei Kommunikation mit Drittanbietern)</li>
+          </ul>
+          <p class="indent-2">
+            Zweck: Bereitstellung, Stabilit&auml;t und Sicherheit der App.<br />
+            Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO und/oder Art. 6 Abs. 1 lit. b DSGVO.
+          </p>
+
+          <p class="indent-1"><strong>b) In-App-K&auml;ufe (digitale M&uuml;nzen)</strong></p>
+          <p class="indent-2">
+            Bei K&auml;ufen digitaler Inhalte (z. B. &bdquo;M&uuml;nzen&ldquo;) erfolgt die Zahlungsabwicklung
+            &uuml;ber Apple App Store bzw. Google Play. Wir erhalten dabei in der Regel keine Zahlungsdaten
+            (z. B. Kreditkarteninformationen), sondern ggf.:
+          </p>
+          <ul class="indent-list">
+            <li>Kauf-/Transaktionsstatus (z. B. &bdquo;gekauft&ldquo;, &bdquo;erstattet&ldquo;)</li>
+            <li>Beleg-/Best&auml;tigungsdaten zur Freischaltung der gekauften Inhalte</li>
+          </ul>
+          <p class="indent-2">
+            Zweck: Bereitstellung gekaufter Inhalte, Validierung, Betrugspr&auml;vention.<br />
+            Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Vertragserf&uuml;llung).
+          </p>
+
+          <p class="indent-1"><strong>c) Werbung &uuml;ber Google AdMob (nicht-personalisiert)</strong></p>
+          <p class="indent-2">
+            Die App verwendet Google AdMob, um nicht-personalisierte Werbeanzeigen auszuliefern.
+            Nicht-personalisierte Anzeigen basieren nicht auf einem Nutzerprofil oder fr&uuml;herem
+            Nutzungsverhalten; sie k&ouml;nnen jedoch kontextbezogene Informationen nutzen.
+          </p>
+          <p class="indent-2">Je nach Plattform-/SDK-Konfiguration k&ouml;nnen u. a. verarbeitet werden:</p>
+          <ul class="indent-list">
+            <li>IP-Adresse</li>
+            <li>Ger&auml;te-/App-Informationen</li>
+            <li>Interaktions-/Messdaten (z. B. Einblendung einer Anzeige)</li>
+            <li>Technische Kennungen/Signale (implementierungsabh&auml;ngig)</li>
+          </ul>
+          <p class="indent-2">
+            Zweck: Auslieferung und Abrechnung nicht-personalisierter Werbung, Finanzierung der App,
+            Betrugspr&auml;vention und Messung.<br />
+            Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO.
+          </p>
+          <p class="indent-2">
+            Hinweis EWR/UK/CH: Google weist darauf hin, dass Ad-Partner (inkl. Google) Daten f&uuml;r
+            Ausspielung/Reporting nutzen k&ouml;nnen und Publisher beteiligte Partner transparent machen m&uuml;ssen.
+          </p>
+        </div>
+
+        <div class="section-divider">
+          <h3>4) Empf&auml;nger / Drittanbieter</h3>
+          <p>
+            Google AdMob / Google<br />
+            Vertragspartner/Entity (typisch f&uuml;r AdMob): Google Ireland Limited, Gordon House,
+            Barrow Street, Dublin 4, Irland
+          </p>
+          <p>
+            Apple (App Store) / Google (Google Play) zur Bereitstellung der App
+            und Abwicklung/Best&auml;tigung von In-App-K&auml;ufen.
+          </p>
+        </div>
+
+        <div class="section-divider">
+          <h3>5) Drittland&uuml;bermittlung (z. B. USA)</h3>
+          <p>
+            Bei Nutzung von Google-Diensten (z. B. AdMob) kann eine Verarbeitung au&szlig;erhalb der
+            EU/des EWR (insb. USA) nicht ausgeschlossen werden. &Uuml;bermittlungen erfolgen nur unter
+            den Voraussetzungen der Art. 44 ff. DSGVO.
+          </p>
+        </div>
+
+        <div class="section-divider">
+          <h3>6) Speicherdauer</h3>
+          <ul>
+            <li>Kauf-/Statusdaten: solange zur Bereitstellung/Validierung erforderlich</li>
+            <li>Werbedaten: gem&auml;&szlig; Speicherfristen und Konfiguration von Google/AdMob</li>
+            <li>Technische Daten: in der Regel kurzfristig bzw. gem&auml;&szlig; System-/SDK-Konfiguration</li>
+          </ul>
+        </div>
+
+        <div class="section-divider">
+          <h3>7) Deine Rechte</h3>
+          <p>
+            Du hast nach DSGVO insbesondere folgende Rechte: Auskunft (Art. 15), Berichtigung (Art. 16),
+            L&ouml;schung (Art. 17), Einschr&auml;nkung (Art. 18), Daten&uuml;bertragbarkeit (Art. 20),
+            Widerspruch (Art. 21). Au&szlig;erdem kannst du dich bei einer Datenschutz-Aufsichtsbeh&ouml;rde
+            beschweren (Art. 77 DSGVO).
+          </p>
+        </div>
+
+        <div class="section-divider">
+          <h3>8) &Auml;nderungen dieser Datenschutzerkl&auml;rung</h3>
+          <p>
+            Wir behalten uns vor, diese Datenschutzerkl&auml;rung anzupassen, um sie an rechtliche
+            Anforderungen oder Funktions&auml;nderungen der App anzupassen.
+          </p>
+        </div>
+      </section>
+
+      <section id="impressum" class="legal-box">
+        <h2>Impressum</h2>
+        <p class="stand">Angaben gem&auml;&szlig; &sect; 5 Digitale-Dienste-Gesetz (DDG)</p>
+
+        <p class="field-label indent-1">Anbieter:</p>
+        <p class="field-body indent-2">
+          Kevin B.
+        </p>
+
+        <p class="field-label indent-1">Anschrift:</p>
+        <p class="field-body indent-2">
+          Hauptstra&szlig;e 10<br />
+          71272 Renningen<br />
+          Deutschland
+        </p>
+
+        <p class="field-label indent-1">Kontakt:</p>
+        <p class="field-body indent-2">
+          E-Mail: kb@kb-solutions.info
+        </p>
+
+        <p class="field-label indent-1">Verbraucherschlichtung:</p>
+        <p class="field-body indent-2">
+          Wir sind nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren vor einer
+          Verbraucherschlichtungsstelle teilzunehmen.
+        </p>
+
+        <p class="field-label indent-1">Geltungsbereich:</p>
+        <p class="field-body indent-2">
+          Dieses Impressum gilt f&uuml;r die Website kb-solutions.info, die App
+          &bdquo;Wunschbrunnen&ldquo; sowie zugeh&ouml;rige Support- und Informationsseiten.
         </p>
       </section>
 
       <footer>
-        Optional: Diese Seite kann als oeffentliche Datenschutz-URL im Store-Listing
-        verwendet werden.
+        Diese Seite kann als &ouml;ffentliche Datenschutz-URL im Store-Listing verwendet werden.
       </footer>
     </main>
   </body>
